@@ -14,14 +14,6 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-# core/urls.py
-# from django.contrib import admin
-# from django.urls import path, include
-
-# urlpatterns = [
-#     path('admin/', admin.site.urls),
-#     path('api/auth/', include('amankan.api.urls')),
-# ]
 
 from django.contrib import admin
 from django.urls import path, include, re_path
@@ -35,7 +27,7 @@ schema_view = get_schema_view(
       default_version='v1.0.0',
       description="API documentation for Amankan Application",
       terms_of_service="https://www.example.com/terms/",
-      contact=openapi.Contact(email="contact@example.com"),
+      contact=openapi.Contact(email="ikbaltaqyudin@gmail.com"),
       license=openapi.License(name="BSD License"),
    ),
    public=True,
