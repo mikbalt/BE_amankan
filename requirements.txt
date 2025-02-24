@@ -7,3 +7,4 @@ PyJWT==2.10.1
 python-dotenv==1.0.1
 sqlparse==0.5.3
 tzdata==2025.1
+drf-yasg==1.21.7
